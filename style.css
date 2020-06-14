@@ -16,10 +16,10 @@ ul li{
 	padding:3rem;
 }
 ul li a:hover{
-	color:white
+	color:blue;
 }
-ul li:hover{
-	color:white
+ul li a{
+	text-decoration:none !important;
 }
 .logo{
 	float:left;
@@ -56,6 +56,10 @@ a{text-decoration:none;}
 	}
 	.navbar-brand{float:left !important;}
 	.fa-bars,.fa-times{font-size:23px!important;}
+	.navbar.navbar-expand-lg.nav-color.container {
+    width: 100% !important;
+    margin-right: 0% !important;
+}
 }
 
 .bg-img{
