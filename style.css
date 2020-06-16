@@ -60,6 +60,10 @@ a{text-decoration:none;}
     width: 100% !important;
     margin-right: 0% !important;
 }
+.btn.ml-5.btn-primary.float-right {
+    margin: 0% !important;
+    float: none !important;
+}
 }
 
 .bg-img{
@@ -158,19 +162,10 @@ a{text-decoration:none;}
 	
 }
 
-@media only screen and (max-width: 999px) {
-	.btn.ml-5.btn-primary.float-right {
-    float: left !important;
-	margin-left:0% !important;
-	}
-
-}
 @media only screen and (max-width: 767px) {
-.container{width:100% !important;}	
-input{width:70% !important;}
+.container{width:100% !important;}
 textarea.form-control {
     height: auto;
-    width: 70% !important;
 	margin-left:0% !important;
 }
 form{width:100% !important;padding-left:0% !important;}	
@@ -180,9 +175,6 @@ form{width:100% !important;padding-left:0% !important;}
 .next-control{margin-right:5% !important;}
 #fr-control{float:right !important;}	
 #fl-control{float:left !important;}	
-.btn.text-uppercase.btn-outline-danger.text-center.mt-5.mx-auto {
-    margin-right: 3rem !important;
-}
 .container.py-5.mt-2.mx-5.px-5 {
 
     padding: 0% !important;
@@ -190,10 +182,10 @@ form{width:100% !important;padding-left:0% !important;}
 
 }
 .text-center.mx-5.px-5 {
-    margin-right: 5% !important;
-    margin-left: 5% !important;
-    padding-right: 1% !important;
-    padding-left: 1% !important;
+    margin-right: 0% !important;
+    margin-left: 0% !important;
+    padding-right: 0% !important;
+    padding-left: 0% !important;
 }
 }
 
@@ -201,14 +193,9 @@ form{width:100% !important;padding-left:0% !important;}
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	
 .container{width:100% !important;}	
-textarea{margin-left:5% !important;}
 .row{margin-right:0 !important;margin-left:0 !important;}
 form{width:100% !important;padding-left:0% !important;}
-input{width:70% !important;}
-textarea.form-control {
-    height: auto;
-    width: 70% !important;
-}
+
 .pre-control{margin-left:-15% !important;}
 .next-control{margin-right:-15% !important;}	
 #asa{width:100% !important;}
@@ -238,10 +225,6 @@ textarea.form-control {
 @media 
 	only screen and (-webkit-min-device-pixel-ratio: 2),
 	only screen and (min-device-pixel-ratio: 2) {
-	
-input{width:100% !important;margin-left:5% !important;}
-form{width:100% !important;padding-left:0% !important;}
-textarea{margin-left:5% !important;}
 .row{margin-right:0 !important;margin-left:0 !important;}	
 .asa{width:100% !important;}	
 
